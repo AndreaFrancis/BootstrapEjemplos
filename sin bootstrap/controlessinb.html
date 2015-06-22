@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Controles de formulario sin Bootstrap</title>
+  </head>
+  <body>
+       <!--Existe estilos para  : text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel, y color. de HTML5-->
+
+       <!--Ejemplo de input = text-->
+       <h2>Ejemplo de input text</h2>
+       <input type="text" class="form-control" placeholder="Escriba aca un texto"/>
+       <!--Ejemplo de textarea-->
+       <h2>Ejemplo de textarea con 8 filas </h2>
+       <textarea class="form-control" rows="8"> </textarea>
+      <!--Ejemplo de Checkbox-->
+       <input type="checkbox" > Este es un ejemplo de checkbox<br>
+      <!--Ejemplo de Radio button-->
+      <div class="radio">
+        <label>
+          <input type="radio" name="opciones" id="opciones_1" value="opcion_1" checked>
+          Esta es una opción muy interesante que tienes que pinchar
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="opciones" id="opciones_2" value="opcion_2">
+          Esta otra opción también es muy interesante y al pincharla, deseleccionas la opción anterior
+        </label>
+      </div>
+
+      <!--Ejemplo de listas desplegables o combobox--> 
+      <h2>Ejemplo de lista desplegable</h2>
+      <select class="form-control">
+          <option>Opcion 1</option>
+          <option>Opcion 2</option>
+          <option>Opcion 3</option>
+          <option>Opcion 4</option>
+      </select>
+      <!--Ejemplo de listas desplegables multiples--> 
+      <h2>Ejemplo de listas desplegables multiples</h2>
+      <select multiple class="form-control">
+          <option>Opcion 1 multiple</option>
+          <option>Opcion 2 multiple</option>
+          <option>Opcion 3 multiple</option>
+          <option>Opcion 4 multiple</option>
+          <option>Opcion 5 multiple</option>
+      </select>
+  </body>
+</html>

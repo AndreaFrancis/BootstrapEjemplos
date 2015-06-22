@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pestañas de Bootstrap </title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <h1>Navegacion con pestañas</h1>
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#">Perfil</a></li>
+    <li><a href="#">Contactos</a></li>
+    <li><a href="#">Mensaje</a></li>
+  </ul>
+
+  <h1>Navegacion con botones</h1>
+  <ul class="nav nav-pills">
+    <li class="active"><a href="#">Perfil</a></li>
+    <li><a href="#">Contactos</a></li>
+    <li><a href="#">Mensaje</a></li>
+  </ul>
+
+<div class="container" style="padding-right: 50em;">
+  <h1>Navegacion vertical</h1>
+  <ul class="nav nav-stacked nav-pills">
+      <li class="active"><a href="#">Perfil</a></li>
+      <li><a href="#">Contactos</a></li>
+      <li><a href="#">Mensaje</a></li>
+  </ul>
+</div>
+
+  <h1>Pestañas con menus despegables</h1>
+  <ul class="nav nav-tabs">
+    <li><a href="#">Opcion 1</a></li>
+    <li>
+        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#">Opcion 2
+          <span class="caret"></span>
+        </a>
+        
+        <ul class="dropdown-menu">
+          <li>Opcion 2.1</li>
+          <li>Opcion 2.2</li>
+        </ul>
+      
+    </li>
+    <li><a href="#">Opcion 3</a></li>
+  </ul>
+</body>
+</html>
